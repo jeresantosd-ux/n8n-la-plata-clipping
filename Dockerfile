@@ -1,12 +1,11 @@
 FROM n8nio/n8n:latest
 
-# Variables de entorno
 ENV N8N_BASIC_AUTH_ACTIVE=true
 ENV N8N_BASIC_AUTH_USER=admin
-ENV N8N_BASIC_AUTH_PASSWORD=laplata123
+ENV N8N_BASIC_AUTH_PASSWORD=laplata2025
 ENV N8N_HOST=0.0.0.0
-ENV N8N_PORT=5678
-ENV WEBHOOK_URL=https://TU-APP.railway.app/
+ENV N8N_PORT=3000
+ENV WEBHOOK_URL=https://n8n-la-plata.onrender.com
 ENV GENERIC_TIMEZONE=America/Argentina/Buenos_Aires
 
-EXPOSE 5678
+EXPOSE 3000
